@@ -15,7 +15,7 @@ if (secondaryBtn) {
   secondaryBtn.addEventListener('click', () => {
     const title = document.querySelector('.decision-title');
     if (title) {
-      title.textContent = 'También vale una segunda opinión: la receta sigue recomendada.';
+      title.textContent = 'También vale otra opinión: la receta sigue recomendada.';
       title.style.color = '#35563d';
     }
   });
